@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: manifest-asp-net
+  host: manifest-asp-net
+  disk_quota: 1024M
+  services:
+  - manifest-asp-net-cloudantNoSQLDB
